@@ -4,9 +4,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-slider.css">
 </head>
 <body>
-   <h1>oi wellington</h1> 
+   <header class="header">
+        <div id="logo">LOGO </div>
+        <nav id="menu">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Sobre</a>
+                </li>
+                <li>
+                    <a href="#">Café</a>
+                </li>
+                <li>
+                    <a href="#">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="sct-01">
+        <div id="titulo">
+            <h1>Café
+                <br>com pão
+            </h1>
+            <p>Estamos te esperando para <br>tomar um café feito com <br>muito carinho, com produtos <br>selecionados por especialistas.</p>
+        </div>
+        <div><img src="img/cafe.png" alt=""></div>
+    </section>
+    <main>
+
+        <button>FAÇA O SEU PEDIDO!</button>
+        <section class="sct-02">
+            <div>
+                <img src="img/croassant.jpg" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium quibusdam maxime ipsum quisquam vel inventore. Laudantium consectetur unde quasi in quaerat consequuntur, aspernatur, harum dolor odio laborum rerum explicabo inventore
+                    velit?
+                </p>
+            </div>
+            <div><img src="img/biscoito.jpg" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur consectetur adipisicing elit. Accusantium quibusdam maxime ipsum quisquam vel inventore. Laudantium unde quasi in quaerat consequuntur, aspernatur, harum dolor odio laborum rerum explicabo inventore
+                    velit?
+                </p>
+            </div>
+            <div><img src="img/doce.jpg" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur consectetur adipisicing elit. Accusantium quibusdam maxime ipsum quisquam vel inventore. Laudantium unde consecteturquasi in quaerat consequuntur, aspernatur, harum dolor odio laborum rerum explicabo
+                    inventore velit?
+                </p>
+            </div>
+        </section>
+        <section class="slider">
+            <div class="slides">
+                <!-- Radio buttons -->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <!-- Fim Radio buttons -->
+                <!-- Slide images -->
+                <div class="slide first">
+                    <img src="img-01/img-01-.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img-01/img-02-.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img-01/img-03-.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img-01/img-04-.jpg" alt="">
+                </div>
+                <!-- Fim slide images -->
+                <!-- Navigation auto -->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+                <!-- Fim Navigation auto -->
+            </div>
+            <!-- Manual Navigation -->
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+            <!-- Fim Manual Navigation -->
+
+        </section>
+        <script src="js/script-slider.js"></script>
+    </main>
+    <footer>
+        <p>Designer: Wellington</p>
+    </footer>
 </body>
 </body>
 </html>
